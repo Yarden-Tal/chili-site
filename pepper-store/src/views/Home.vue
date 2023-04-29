@@ -1,7 +1,7 @@
 <template>
-  <Peppers />
+  <Landing />
 </template>
 
 <script lang="ts" setup>
-  import Peppers from '@/components/Peppers.vue';
+  import Landing from '@/components/Landing.vue';
 </script>

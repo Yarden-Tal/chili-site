@@ -1,11 +1,17 @@
 <template>
   <v-app>
     <v-main>
-      <Peppers />
+      <router-view/>
     </v-main>
   </v-app>
 </template>
 
 <script setup lang="ts">
-    import Peppers from '@/components/Peppers.vue';
+    import Landing from '@/components/Landing.vue';
 </script>
+
+<style>
+  * {
+    direction: rtl;
+  }
+</style>
